@@ -1,0 +1,22 @@
+# Typerite
+
+> The easiest way to write is to let something think for you. This is the other way.
+
+## What is Typerite?
+Typerite is a distraction-free daily writing tool designed to build focus and cognitive clarity. It counters the trend of AI-generated content by forcing you to write 500 words per day manually.
+
+## Core Philosophy
+- **Earned Words**: Only words you type count. Paste is disabled.
+- **No AI, No Prompts**: Just a blank page and a cursor.
+- **Restoration**: If you miss a day, you can restore your streak by writing more the next day.
+- **Privacy**: All writing is stored locally on your device and encrypted. No analytics, no tracking.
+
+## Platforms
+- iOS
+- iPadOS
+- macOS
+
+## Links
+- **Website**: https://typerite.app
+- **Privacy Policy**: https://typerite.app/privacy
+- **Terms**: https://typerite.app/terms
