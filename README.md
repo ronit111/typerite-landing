@@ -1,6 +1,6 @@
 # Typewrite Landing Page
 
-Marketing landing page for the Typewrite app.
+Marketing landing page for the Typewrite app. Pre-launch only (no App Store link yet).
 
 ## Structure
 - `index.html` — main page
