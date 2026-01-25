@@ -26,4 +26,24 @@
     <lastmod>2026-01-25</lastmod>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://typerite.app/llms.txt</loc>
+    <lastmod>2026-01-25</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://typerite.app/humans.txt</loc>
+    <lastmod>2026-01-25</lastmod>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://typerite.app/security.txt</loc>
+    <lastmod>2026-01-25</lastmod>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://typerite.app/.well-known/security.txt</loc>
+    <lastmod>2026-01-25</lastmod>
+    <priority>0.2</priority>
+  </url>
 </urlset>
