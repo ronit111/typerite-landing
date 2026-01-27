@@ -348,8 +348,14 @@
       align-items: center;
       text-align: center;
       padding: var(--space-xl) var(--space-md);
-      padding-bottom: var(--space-3xl);
+      padding-bottom: 7rem;
       position: relative;
+    }
+
+    @media (min-width: 768px) {
+      .hero {
+        padding-bottom: 8rem;
+      }
     }
 
     .hero::before {
