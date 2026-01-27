@@ -835,6 +835,71 @@
       white-space: nowrap;
       border: 0;
     }
+
+    /* ========================================
+       Hero Status Line
+       ======================================== */
+    .hero-status {
+      font-size: 0.8125rem;
+      color: var(--ritual-umber);
+      margin-top: var(--space-xs);
+      font-style: italic;
+    }
+
+    /* ========================================
+       Not For Everyone Section
+       ======================================== */
+    .not-for-everyone {
+      background-color: var(--warm-off-white);
+    }
+
+    .filter-content {
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .filter-hook {
+      font-family: var(--font-serif);
+      font-size: 1.5rem;
+      margin-bottom: var(--space-lg);
+      color: var(--deep-graphite);
+    }
+
+    .filter-lists {
+      margin-bottom: var(--space-lg);
+    }
+
+    .filter-not p,
+    .filter-yes p {
+      font-size: 1.0625rem;
+      color: var(--muted-text);
+      line-height: 1.8;
+      margin-bottom: var(--space-sm);
+    }
+
+    .filter-yes {
+      margin-top: var(--space-lg);
+    }
+
+    .filter-close {
+      font-family: var(--font-serif);
+      font-size: 1.25rem;
+      color: var(--deep-graphite);
+    }
+
+    /* ========================================
+       Footer Link Styles
+       ======================================== */
+    .footer-copyright a {
+      color: rgba(243, 236, 230, 0.6);
+      text-decoration: none;
+      transition: color var(--duration-medium) var(--ease-gentle);
+    }
+
+    .footer-copyright a:hover {
+      color: var(--warm-white);
+    }
   </style>
 </head>
 
@@ -863,6 +928,7 @@
       </a>
 
       <p class="hero-platforms animate-in delay-5">iPhone · iPad · Mac</p>
+      <p class="hero-status animate-in delay-5">Launching soon on the App Store</p>
     </div>
 
     <div class="scroll-indicator" aria-hidden="true">
@@ -882,6 +948,28 @@
           A daily writing practice for people who treat cognitive clarity as something earned through repetition, not
           given through convenience.
         </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Not For Everyone Section -->
+  <section class="not-for-everyone">
+    <div class="container">
+      <div class="filter-content">
+        <p class="filter-hook">This practice isn't for everyone.</p>
+        <div class="filter-lists">
+          <div class="filter-not">
+            <p>If ease matters more than effort, you'll find this tedious.</p>
+            <p>If you need prompts to start, this will feel empty.</p>
+            <p>If a blank page feels like punishment, you won't last.</p>
+          </div>
+          <div class="filter-yes">
+            <p>But if you've felt that something was lost when writing became easy...</p>
+            <p>If you miss the friction that made your words yours...</p>
+            <p>If you believe the struggle is where the thinking happens...</p>
+          </div>
+        </div>
+        <p class="filter-close"><em>You already know why you're here.</em></p>
       </div>
     </div>
   </section>
@@ -908,8 +996,7 @@
         </div>
         <div class="feature">
           <h3 class="feature-title">Private by Default</h3>
-          <p class="feature-desc">Your writing stays on your devices, encrypted. No analytics. No tracking. Your
-            thoughts belong to you.</p>
+          <p class="feature-desc">Your words are encrypted locally and never used for ads, AI training, or sold to anyone. No analytics. No tracking. Your thoughts stay yours.</p>
         </div>
       </div>
     </div>
@@ -928,7 +1015,7 @@
         <div class="step">
           <div class="step-number">365</div>
           <h3 class="step-title">Days, one free year</h3>
-          <p class="step-desc">Write for a full year, and the next year is on us. The rhythm repeats.</p>
+          <p class="step-desc">Write every day for a year. The next year is on us. Most people quit. We reward those who don't.</p>
         </div>
         <div class="step">
           <div class="step-number">30</div>
@@ -1036,7 +1123,7 @@
     </div>
 
     <div class="footer-bottom">
-      <p class="footer-copyright">© 2026 Typerite. Built for those who refuse to outsource thinking.</p>
+      <p class="footer-copyright">© 2026 Typerite · <a href="https://x.com/RonitChidara">@RonitChidara</a> · Built for those who refuse to outsource thinking.</p>
     </div>
   </footer>
 
